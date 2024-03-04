@@ -1,2 +1,20 @@
 # template_BackAndFront
-Template mono repo avec un Front sous REACT et un back avec Express et BBD MySQL
+Use this template to create a new repository.
+
+Template mono repo:
+-Front sous REACT 
+-Back avec Express et BBD MySQL
+
+npm install
+
+Package NPM général:
+dotenv
+axios
+
+Pour le CSS:
+sass
+
+Pour le back:
+Express
+Nodemon
+mysql2
