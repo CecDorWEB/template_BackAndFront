@@ -1,8 +1,8 @@
 # template_BackAndFront
 Use this template to create a new repository.
 
-Template mono repo:
--Front sous REACT 
+Template mono repo:<br>
+-Front sous REACT <br>
 -Back avec Express et BBD MySQL
 
 npm install
