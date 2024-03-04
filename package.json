@@ -1,0 +1,21 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:migrate": "cd ./backend && node migrate.js",
+    "db:seed": "cd ./backend && node seed.js",
+    "setup": "npm i && npm --prefix ./frontend i && npm --prefix ./backend i",
+    "dev": "concurrently \"npm --prefix ./frontend start\" \"npm --prefix ./backend run back\"",
+    "backend": "npm --prefix ./backend run back",
+    "frontend": "npm --prefix ./frontend start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
