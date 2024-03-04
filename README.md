@@ -1,4 +1,5 @@
 # template_BackAndFront
+<<<<<<< HEAD
 Use this template to create a new repository.
 
 Template mono repo:<br>
@@ -18,3 +19,6 @@ Pour le back:
 Express
 Nodemon
 mysql2
+=======
+Template mono repo avec un Front sous REACT et un back avec Express et BBD MySQL
+>>>>>>> 96ee7c3bee9d7d807b82efafe2b07b07115585b5
